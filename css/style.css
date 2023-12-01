@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 10px 70px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    background: black;
+}
+
+.navbar .navbar-brand {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 0, 0) !important;
+
+}
+
+.navbar .navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(182, 182, 182);
+    border-bottom: 1px solid transparent;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+
+    color: rgb(255, 0, 0);
+    border-bottom: 1px solid rgb(255, 0, 0);
+    transition: 0.2s ease 0.1s;
+}
+
+#navbarSupportedContent button {
+
+    background: rgb(255, 0, 0);
+    color: white;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+
+#navbarSupportedContent button:hover {
+    transition: 0.1s ease 0.2s;
+    background: rgb(134, 3, 3);
+    color: rgb(196, 196, 196);
+}
+
+
+@media (min-width: 200px) {
+    .navbar .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../img/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h2 {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    font-size: 80px;
+    font-weight: 300;
+    color: rgb(206, 206, 206);
+    text-shadow: 1px 1px 30px rgb(211, 18, 18);
+    text-transform: uppercase;
+}
+
+#home p {
+    font-size: 20px;
+    color: bisque;
+    text-align: center;
+
+}
+
+#home .input-group {
+    border-radius: 20px;
+    box-shadow: 7px 7px 8px rgb(121, 121, 121);
+    width: 40%;
+    height: 50px;
+}
+
+#home .signin {
+    font-weight: bold;
+    color: aliceblue;
+    background: rgba(226, 6, 6, 0.849);
+}
+
+#about {
+    background: linear-gradient(to right, rgba(167, 247, 156, 0.616), rgba(148, 187, 233, 0.5));
+}
+
+#about img {
+    width: 500px;
+}
+
+#about h1 {
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+#about p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#Products {
+    background: #e5e5e5;
+}
+
+#Products h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#Products img {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.card {
+    padding-top: 10px;
+    width: 250px;
+    height: 300px;
+    background: #e5e5e5 !important;
+    border: none;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3),
+        inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+
+}
+
+.card:hover {
+    
+    box-shadow: inset 8px 8px 10px rgba(0, 0, 0, 0.3),
+        inset -4px -4px 10px white;
+
+}
+
+#contact {
+    background: linear-gradient(to right, rgb(134, 9, 9), rgb(0, 0, 0));
+}
+
+#contact img {
+    width: 500px;
+}
+#contact button
+{
+ width: 50%;
+ margin: 0px 100px ;
+}
+
+#footer {
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.616), rgb(0, 0, 0));
+}
+
+#footer p {
+    color: white;
+}
+#footer h5{
+    color: white;
+} 
